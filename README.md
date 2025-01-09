@@ -19,6 +19,23 @@ Sparkify, a music streaming company, aims to automate and monitor its ETL pipeli
 - **Apache Airflow**
 - **AWS (IAM, S3, Redshift Serverless)**
 
+
+## 2. **Project Structure**
+
+```
+project-airflow-aws
+├── dags          # directory with Airflow DAG scripts
+│   └── ...
+├── images          # Screenshots of Airflow
+│   └── ...
+├── plugins        # directory with custom helpers and Airflow operators
+│   ├── helpers    # custom helpers
+│   │   └── ...
+│   ├── operators  # custom operators
+│   │   └── ...
+```
+
+
 ## 📋 **Airflow Data Pipeline**
 The data pipeline in this project stages data from S3 to Redshift, loads it into fact and dimension tables, and performs data quality checks.
 
